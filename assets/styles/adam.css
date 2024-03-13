@@ -63,11 +63,13 @@
 .fernandof38911b935c3ef6d9 h1 {
     font-size: var(--heading);
 }
-.fernandof38911b935c3ef6d9 .btn-primary {
+.fernandof38911b935c3ef6d9 .btn-primary,
+.fernandof38911b935c3ef6d9 .btn-primary:not(:disabled):not(.disabled):active {
     font-weight: var(--button-font-weight);
     border-radius: var(--button-border-radius);
     background-color: var(--primary-Color);
     color: var(--main-Background-Color);
+    border-color: var(--primary-Color);
 }
 .fernandof38911b935c3ef6d9 h3 {
     font-size: var(--heading-two);
@@ -113,4 +115,8 @@
 .footftkxsoham8f .nav-link{
     font-weight: 500;
     color: #101828;
+}
+.footftkxsoham8f .fab,
+.footftkxsoham8f a:hover{
+    color: var(--alert-Color);
 }
