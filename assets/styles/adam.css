@@ -27,7 +27,6 @@
 	--heading-large: 35px;
     --heading-medium: 25px;
     --paragraph: 18px;
-    --heading-two:25px;
 }
 .fdb-block {
     padding: 0rem 0;
@@ -89,14 +88,17 @@
     border-color: var(--primary-Color);
 }
 .fernandof38911b935c3ef6d9 h3 {
-    font-size: var(--heading-two);
+    font-size: var(--heading-medium);
 }
-.fernandof38911b935c3ef6d9 .lead {
+.fernandof38911b935c3ef6d9 p {
     font-size: var(--paragraph);
+}
+.fernandof38911b935c3ef6d9 strong {
+    font-weight: 500;
 }
 /*serviceebfcf165e4ae5852*/
 .serviceebfcf165e4ae5852 h2 {
-    font-size: var(--heading);
+    font-size: var(--heading-large);
 }
 /*productscb870d00581aabe8*/
 .productscb870d00581aabe8{
@@ -105,6 +107,12 @@
 .productscb870d00581aabe8 .title {
     font-size: var(--heading-two);
     color: var(--primary-Color);
+}
+.serviceebfcf165e4ae5852 .card-title{
+    font-size: var(--heading-medium);
+}
+.serviceebfcf165e4ae5852 .card-text{
+    font-size: var(--paragraph);
 }
 /*counterc1486b52e923e265f*/
 .counterc1486b52e923e265f .BG{
