@@ -100,28 +100,36 @@
 .serviceebfcf165e4ae5852 h2 {
     font-size: var(--heading-large);
 }
-/*productscb870d00581aabe8*/
-.productscb870d00581aabe8{
-    padding: 4.5rem 0;
-}
-.productscb870d00581aabe8 .title {
-    font-size: var(--heading-two);
-    color: var(--primary-Color);
-}
 .serviceebfcf165e4ae5852 .card-title{
     font-size: var(--heading-medium);
 }
 .serviceebfcf165e4ae5852 .card-text{
     font-size: var(--paragraph);
 }
+/*productscb870d00581aabe8*/
+.productscb870d00581aabe8{
+    padding: 4.5rem 0;
+}
+.productscb870d00581aabe8 .title {
+    font-size: var(--heading-medium);
+    color: var(--primary-Color);
+}
+.productscb870d00581aabe8 .price-new{
+    color: var(--primary-Color);
+    font-size: 16px;
+}
 /*counterc1486b52e923e265f*/
 .counterc1486b52e923e265f .BG{
     background-color: var(--main-Background-Color);
     padding: 3.5rem 0;
+    font-size: var(--heading-large);
 }
 .counterc1486b52e923e265f h2 {
     color: var(--alert-Color);
     margin-top: 15px;
+}
+.counterc1486b52e923e265f h4{
+    font-size: var(--paragraph);
 }
 /*testimonialcohi0ajeo7e*/
 .testimonialcohi0ajeo7e strong{
