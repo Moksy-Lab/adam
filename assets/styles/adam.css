@@ -132,12 +132,18 @@
     font-size: var(--paragraph);
 }
 /*testimonialcohi0ajeo7e*/
+.testimonialcohi0ajeo7e .lead{
+    font-size: var(--paragraph);
+}
 .testimonialcohi0ajeo7e strong{
     font-weight: 500
 }
 /*teamtmi4xt29bn1*/
 .teamtmi4xt29bn1 h1{
-    font-size: var(--heading);
+    font-size: var(--heading-large);
+}
+.teamtmi4xt29bn1 .h3 {
+    font-size: 16px;
 }
 .teamtmi4xt29bn1 strong{
     font-weight: 500;
@@ -145,7 +151,7 @@
 }
 /*footftkxsoham8f*/
 .footftkxsoham8f h3{
-    font-size: var(--heading-two);
+    font-size: var(--paragraph);
     font-weight: 500;
 }
 .footftkxsoham8f .nav-link{
@@ -155,4 +161,7 @@
 .footftkxsoham8f .fab,
 .footftkxsoham8f a:hover{
     color: var(--alert-Color);
+}
+.footftkxsoham8f .lead{
+    font-size: 16px;
 }
