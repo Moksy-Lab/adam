@@ -73,7 +73,7 @@
 }
 /*clientsc424c807ccsdfsd8e9ab*/
 .clientsc424c807ccsdfsd8e9ab{
-    padding: 30px 0;
+    padding: var(--section-padding);
 }
 .clientsc424c807ccsdfsd8e9ab .figure {
 	color: var(--alert-Color);
@@ -87,7 +87,7 @@
 }
 /*fernandof38911b935c3ef6d9*/
 .fernandof38911b935c3ef6d9{
-    padding: 30px 0;
+    padding: var(--section-padding);
 }
 .fernandof38911b935c3ef6d9 .fdb-block {
 	padding: 0rem 0;
@@ -114,7 +114,7 @@
 }
 /*serviceebfcf165e4ae5852*/
 .serviceebfcf165e4ae5852{
-    padding: 30px 0;
+    padding: var(--section-padding);
 }
 .serviceebfcf165e4ae5852 h2 {
 	font-size: var(--heading-large);
@@ -127,7 +127,7 @@
 }
 /*productscb870d00581aabe8*/
 .productscb870d00581aabe8 {
-	padding: 30px 0;
+	padding: var(--section-padding);
 }
 .productscb870d00581aabe8 .title {
 	font-size: var(--heading-medium);
@@ -139,7 +139,7 @@
 }
 /*counterc1486b52e923e265f*/
 .counterc1486b52e923e265f{
-    padding: 30px 0;
+    padding: var(--section-padding);
 }
 .counterc1486b52e923e265f .BG {
 	background-color: var(--main-Background-Color);
@@ -155,7 +155,7 @@
 }
 /*testimonialcohi0ajeo7e*/
 .testimonialcohi0ajeo7e{
-    padding: 30px 0;
+    padding: var(--section-padding);
 }
 .testimonialcohi0ajeo7e .py-5{
     padding-top: 0rem !important;
@@ -169,7 +169,7 @@
 }
 /*teamtmi4xt29bn1*/
 .teamtmi4xt29bn1{
-    padding: 30px 0;
+    padding: var(--section-padding);
 }
 .teamtmi4xt29bn1 h1 {
 	font-size: var(--heading-large);
