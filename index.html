@@ -211,10 +211,29 @@
                                 aria-label="Recipient's username" aria-describedby="basic-addon2" itemprop="input">
 
                             <div class="input-group-append">
-                                <a href="html/sign.html">
-                                    <button class="btn btn-outline-secondary border-0" type="button">
+                           
+                                    <button class="btn btn-outline-secondary border-0" type="button" data-toggle="modal" data-target="#emailSend">
                                         Start Free Trial 📨 </button>
-                                </a>
+
+
+                                <div class="modal fade" id="emailSend" tabindex="-1" role="dialog" aria-labelledby="emailSendTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLongTitle">This is a dummy message. Your mail has been sent</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn text-dark" data-dismiss="modal">OK</button>
+                                         
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
                                 
                             </div>
 
