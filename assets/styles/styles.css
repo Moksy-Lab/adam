@@ -91,19 +91,23 @@ hr {
 /*****harvey*****/
 /* #harvey(headerco89zzc25hp) #css starts  */
 .headerco89zzc25hp .logo{
-    max-height: 30px
+  max-height: 30px
 }
 .headerco89zzc25hp .RegBtn{
-    font-weight: bold;
-    background-color: #FF914F
+  font-weight: bold;
+  background-color: #FF914F
 }
-
-.headerco89zzc25hp .navbar-toggler>.close {
-    display:inline;
+.headerco89zzc25hp .navbar-open-icon {
+  display: inline
 }
-.headerco89zzc25hp .navbar-toggler.collapsed>.close, 
-.headerco89zzc25hp .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
-    display:none;
+.headerco89zzc25hp .navbar-close-icon {
+  display: none
+}
+.headerco89zzc25hp .navbar-toggler[aria-expanded="true"] .navbar-open-icon {
+  display: none
+}
+.headerco89zzc25hp .navbar-toggler[aria-expanded="true"] .navbar-close-icon {
+  display: inline
 }
 /* #harvey(headerco89zzc25hp) #css ends  */
 /*****harvey*****/
